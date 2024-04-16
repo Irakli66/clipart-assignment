@@ -66,7 +66,7 @@ const openMenu = () => {
             <li
               class="text-sm md:text-sm xl:text-base font-medium uppercase text-grey hover:cursor-pointer hover:text-blue mt-3 mb-10"
             >
-              <a href="#"> რელიგია </a>
+              <a href="#">რელიგია </a>
             </li>
           </div>
         </ul>
