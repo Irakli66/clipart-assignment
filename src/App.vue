@@ -1,5 +1,12 @@
-<script setup></script>
+<script setup>
+import Header from './components/Header.vue';
+</script>
 
 <template>
-  <h1 class="flex justify-center">Starter</h1>
+  <div class="bg-background h-screen">
+    <div class="flex lg:justify-center items-center bg-white">
+      <Header />
+    </div>
+    <div></div>
+  </div>
 </template>
