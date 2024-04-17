@@ -1,5 +1,5 @@
-/* ./src/index.css */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,19 +8,19 @@
 ::-webkit-scrollbar {
   width: 4px;
   height: 4px;
-  /* background: -webkit-linear-gradient(0, blue 50%, white 100%); */
+  /* border-radius: 50px; */
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   background: #fff;
-  border-radius: 10px;
+  /* border-radius: 50px; */
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #657178;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 /* Handle on hover */

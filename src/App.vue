@@ -13,12 +13,18 @@ import PopularList from './components/PopularList.vue';
       <Header />
     </div>
     <div class="flex xl:flex-row flex-col gap-[14px] justify-center mt-10">
-      <div class="flex-col lg:justify-center items-center w-full xl:w-[976px]">
+      <div
+        class="flex-col px-[10px] md:px-50px xl:p-0 lg:justify-center items-center w-full xl:w-[976px]"
+      >
         <MainSlide />
+        <div class="flex flex-col sm:flex-row gap-[32px] lg:hidden static my-5">
+          <NewsList />
+          <PopularList />
+        </div>
         <SmallSlide />
         <GridSection />
       </div>
-      <div class="flex flex-col gap-[66px]">
+      <div class="lg:flex lg:flex-col lg:gap-[66px] lg:static hidden">
         <NewsList />
         <PopularList />
       </div>
