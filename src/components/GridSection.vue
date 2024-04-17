@@ -37,7 +37,7 @@
     <div
       class="row-span-2 col-span-2 md:col-span-1 md:row-span-2 bg-white rounded-3xl p-2.5 lg:flex flex-col h-full flex gap-2 lg:static static sm:hidden"
     >
-      <img src="../assets/images/pic3.png" class="w-full sm:h-full h-[280px]" />
+      <img src="../assets/images/pic3.png" class="w-full sm:h-auto h-[280px]" />
       <div class="flex gap-3">
         <p class="text-sm bg-background px-3 py-1 rounded-xl">12.08.2023</p>
         <p class="text-sm bg-background px-3 py-1 rounded-xl">პოლიტიკა</p>

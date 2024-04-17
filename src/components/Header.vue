@@ -5,9 +5,11 @@ import Dropdown from './Dropdown.vue';
 
 let open = ref(false);
 let expand = ref(false);
+
 const openMenu = () => {
   open.value = !open.value;
 };
+
 const expandSearch = () => {
   expand.value = !expand.value;
 };

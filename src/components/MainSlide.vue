@@ -1,16 +1,13 @@
 <script>
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/vue';
+import { Swiper, SwiperSlide } from 'swiper/vue';
 
-// Import Swiper styles
 import 'swiper/css';
 
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-// import './style.css';
-
-// import required modules
 import { Pagination, Navigation } from 'swiper/modules';
+
 const slideData = [
   {
     id: 1,

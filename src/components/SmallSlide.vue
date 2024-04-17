@@ -1,15 +1,12 @@
 <script>
-// Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { ref } from 'vue';
 import { Icon } from '@iconify/vue';
 
-// Import Swiper styles
 import 'swiper/css';
 
 import 'swiper/css/pagination';
 
-// import required modules
 import { Navigation } from 'swiper/modules';
 const slideData = [
   {
@@ -66,9 +63,11 @@ export default {
     function onSwiper(swiper) {
       swiperInstance.value = swiper;
     }
+
     const swiperNextSlide = () => {
       swiperInstance.value.slideNext();
     };
+
     const swiperPrevSlide = () => {
       swiperInstance.value.slidePrev();
     };
@@ -138,6 +137,5 @@ export default {
         </div>
       </swiper-slide>
     </swiper>
-    <!-- <img v-bind:src="imageObject.src" v-bind:alt="imageObject.alt" /> -->
   </div>
 </template>
