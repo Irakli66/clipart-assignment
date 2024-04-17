@@ -26,7 +26,7 @@ const expandSearch = () => {
       <nav class="">
         <ul
           class="gap-4 flex flex-col lg:flex-row lg:items-center absolute bg-white w-full top-[110px] lg:h-[112px] left-0 pl-5 lg:pl-0 bg-red lg:static lg:flex lg:w-auto xl:gap-8 text-wrap duration-500 ease-in"
-          :class="[open ? 'top-[110px] h-screen sm:h-auto' : 'top-[-100%]']"
+          :class="[open ? 'top-[110px] h-screen sm:h-auto' : 'top-[-110%]']"
         >
           <li
             class="items-baseline text-sm md:text-sm xl:text-base font-medium uppercase text-grey hover:cursor-pointer hover:text-blue lg:mt-0 mt-3 hover:bg-primaryLight p-1 rounded-md lg:p-0 lg:hover:bg-transparent"
